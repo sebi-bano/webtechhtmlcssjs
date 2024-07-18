@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: Arial;
+}
+
+
+nav {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #0f1111;
+    color: white;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1%;
+}
+
+.nav-logo img {
+    width: 110px;
+    padding: 5%;
+    height: 50px;
+}
+
+.nav-logo:hover {
+    outline: 1px solid white;
+}
+
+.location {
+    height: 100%;
+    width: 210px;
+    font-size: 15px;
+    padding: 5% 5%;
+}
+
+.location:hover {
+    outline: 1px solid white;
+}
+
+.location-icon {
+    display: flex;
+    align-items: center;
+}
+.nav-center {
+    height: 40px;
+    display: flex;
+    
+    border-radius: 5px;
+    margin-left: 1%;
+}
+.search-dropdown {
+    width: 5rem;
+    font-size: 1rem;
+    background-color: rgb(210, 208, 208);
+    padding: .5rem;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+.search-box {
+    font-size: 20px;
+    width: 550px;
+    padding: 1%;
+}
+
+
+
+.search-icon i {
+    height: 100%;
+    background-color: rgba(255, 203, 105, 0.849);
+    border-radius: 0 5px 5px 0;
+    padding: 10px 20px;
+    position: relative;
+   
+    
+}
+.nav-right {
+    display: flex;
+    align-items: center;
+    margin: 0 1rem;
+}
+
+.language-option {
+    display: flex;
+    padding: .5rem .5rem;
+}
+
+.language-option:hover {
+    outline: 1px solid white;
+}
+
+.flag {
+    width: 20px;
+    height: 15px;
+    
+    color: white;
+    background: linear-gradient(to top, green,white,orange);
+}
+
+.select-language {
+    font-size: .7rem;
+    font-weight: bold;
+    color: white;
+    background: transparent;
+    border: none;
+}
+
+.select-language option {
+    color: black;
+}
+.account-option {
+    padding: 5% 5%;
+    font-size: 5px;
+}
+.Htext{
+    font-size: 13px;
+}
+.Account{
+    font-size: 17px;
+    
+
+
+}
+
+
+
+
+
+.select-account {
+    font-size: .7rem;
+    font-weight: bold;
+    background: transparent;
+    color: white;
+    
+}
+
+.order-option {
+    padding: .5rem .5rem;
+}
+
+.order-option:hover {
+    outline: 1px solid white;
+}
+.order-option .top-text {
+    font-size: .5rem;
+}
+
+.order-option .bottom-text {
+    font-size: .7rem;
+    font-weight: bold;
+}
+
+.cart-option {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px;
+}
+
+.cart-option:hover {
+    outline: 1px solid white;
+}
+
+.cart-logo i {
+    width: 20px;
+    font-size: 20px;
+    position: relative;
+    left: -7px;
+}
+.nav-options {
+    height: 42px;
+    display: flex;
+    align-items: center;
+    background-color: #222f3d;
+    color: white;
+    justify-content: start;
+    font-size: 20px;
+   
+
+}
+
+.nav-options * {
+    cursor: pointer;
+}
+
+.all-logo {
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+    padding: .5rem;
+    margin-left: 2rem;
+}
+
+.all-logo:hover {
+    outline: 1px solid white;
+}
+
+.nav-options .options {
+    display: flex;
+}
+.nav-options .options p {
+    padding: 0.5rem;
+}
+
+.nav-options .options p:hover {
+    outline: 1px solid white;
+}
+
+.boxes{
+    height: 650px;
+    width: 1530px;
+    border: 10px solid grey;
+    display: grid;
+    gap: 10px;
+    grid-template-areas:"box1 box2 box3 "
+                         "box1 box2 box3"
+                         "box1 box2  box3"
+                         "box1  box4 box5"
+                         "box1   box4 box5"
+                         " box1 box4 box5"
+                        ;
+                         background-color: gray;
+
+}
+
+
+.box1{
+    grid-area: box1;
+    background-image: url("../image/amazondownload.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow-y: auto;
+
+}
+.box2{
+    grid-area: box2;
+    background-image: url("../image/amazondownload\ \(2\).jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow-y: auto;
+
+}
+.box3{
+    grid-area: box3;
+    background-image: url("../image/amazon-top-selling-products.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow-y: auto;
+
+}
+.box4{
+    grid-area: box4;
+    background-image: url("../image/amazon-top-selling-products.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow-y: auto;
+
+}
+.box5{
+    grid-area: box5;
+    background-image: url("../image/Amazon-India-Logo-PNG-White.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow-y: auto;
+
+}
+ul li{
+    list-style-type:none;
+    word-spacing: 20px;
+
+}
+
+

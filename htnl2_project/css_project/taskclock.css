@@ -1,0 +1,195 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.clock{
+    width: 500px;
+    height: 500px;
+    border: 5px solid #333;
+    border-radius: 50%;
+    background-color: hsl(0, 25%, 79%);
+    position: relative;
+    top: 150px;
+    left: 500px;
+
+
+
+}
+.num1{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 41px;
+    left: 350px;
+    font-size: 50px;
+    color: #333;
+    font-weight: bold;
+
+}
+.num2{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 110px;
+    left: 395px;
+    font-size: 50px;
+    color: #333;
+    font-weight: bold;
+
+
+}
+.num3{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 190px;
+    left: 410px;
+    font-size: 50px;
+    color: #333;
+    font-weight: bold;
+
+}
+.num4{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 305px;
+    left: 400px;
+    font-size: 50px;
+    color: #333;
+    font-weight: bold;
+}
+.num5{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 400px;
+    left: 340px;
+    font-size: 50px;
+    color: #333;
+    font-weight: bold;
+}
+.num6{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 420px;
+    left: 260px;
+    font-size: 50px;
+    color: #333;
+    font-weight: bold;
+}
+.num7{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 420px;
+    left: 200px;
+    font-size: 50px;
+    color: #333;
+    font-weight: bold;
+
+}
+.num8{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 395px;
+    left: 150px;
+    font-size: 50px;
+    color: #333;
+    font-weight: bold;
+}
+.num9{
+    width: 50px;
+    height: 0px;
+    position: absolute;
+    top: 90px;
+    left: 10px;
+    font-size: 50px;
+    color: #333;
+    font-weight: bold;
+}
+.num10{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 45px;
+    left: 20px;
+    font-size: 50px;
+    color: #333;
+    font-weight: bold;
+}
+.num11{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    font-size: 50px;
+    color: #333;
+    font-weight: bold;
+    
+}
+.num12{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 10px;
+    left: 400px;
+    font-size:50px;
+    color: #333;
+    font-weight: bold;
+}
+.circle{
+    width: 5px;
+    height: 5px;
+    border: 5px solid #333;
+    border-radius: 50%;
+    position: absolute;
+    top: 100px;
+    left: 400px;
+    background: black;
+
+    
+}
+.line{
+    width: 0px;
+    height: 40px;
+    border: 3px solid;
+    position: absolute;
+    top: 110px;
+    left: 90px;
+    background: black;
+    
+}
+.line1{
+    width: 40px;
+    height: 0px;
+    border: 3px solid;
+    position: absolute;
+    top: 100px;
+    left: 98px;
+    background: black;
+    transition: all 5s 0s;
+    transform-origin: bottom;
+    
+   
+}
+.line1:hover{
+    transform: rotate(130deg);
+}
+.line2{
+    width: 40px;
+    height: 0px;
+    border: 2px solid;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    background: black;
+    transition-duration: 1s;
+
+}

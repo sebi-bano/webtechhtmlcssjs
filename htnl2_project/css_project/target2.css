@@ -1,0 +1,267 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.sec1{
+    width: 350px;
+    height: 700px;
+    
+    border-radius: 10% 10% 10% 10%;
+    background-color: rgb(47, 41, 41);
+    position: relative;
+    left: 220px;
+    top: 5px;
+    display:flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+.box1{
+    width: 350px;
+    height: 70px;
+    
+}
+.box1:hover{
+    background-color:  rgb(82, 80, 80);
+}
+.box2{
+    width: 325px;
+    height: 70px;
+    
+   
+}
+.box2:hover{
+    background-color:  rgb(82, 80, 80);
+}
+.box3{
+    width: 350px;
+    height: 70px;
+   
+}
+.box3:hover{
+    background-color:  rgb(82, 80, 80);
+}
+.box4{
+    width: 325px;
+    height: 70px;
+   
+    
+}
+.box4:hover{
+    background-color:  rgb(82, 80, 80);
+}
+.box5{
+    width: 350px;
+    height: 70px;
+    
+}
+.box5:hover{
+    background-color:  rgb(82, 80, 80);
+}
+.box6{
+    width: 350px;
+    height: 70px;
+  
+}
+.box6:hover{
+    background-color:  rgb(82, 80, 80);
+}
+.box7{
+    width: 350px;
+    height: 70px;
+    
+}
+.box7:hover{
+    background-color:  rgb(82, 80, 80);
+}
+.box8{
+    width: 350px;
+    height: 70px;
+    
+}
+.box8:hover{
+    background-color:  rgb(82, 80, 80);
+}
+.box9{
+    width: 350px;
+    height: 70px;
+   
+}
+.box9:hover{
+    background-color:  rgb(82, 80, 80);
+}
+.box10{
+    width: 325px;
+    height: 70px;
+    
+    border-radius: 0% 0% 30% 30%;
+    
+}
+.box10:hover{
+    background-color:  rgb(82, 80, 80);
+}
+.sec2{
+    width: 85px;
+    height: 702px;
+    border-radius: 5% 5% 5% 5%;
+    background-color: rgb(47, 41, 41);
+    position: relative;
+    left: 610px;
+    bottom: 695px;
+    display:flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.box11{
+    width: 70px;
+    height: 70px;
+
+   
+}
+
+.box11:hover{
+    background-color:  rgb(82, 80, 80);
+}
+
+.box22{
+    width: 60px;
+    height: 70px;
+    
+   
+}
+.box22:hover{
+    background-color:  rgb(82, 80, 80);
+}
+.box33{
+    width: 70px;
+    height: 70px;
+   
+}
+.box33:hover{
+    background-color:  rgb(82, 80, 80);
+}
+.box44{
+    width: 60px;
+    height: 70px;
+
+    
+}
+.box44:hover{
+    background-color:  rgb(82, 80, 80);
+}
+.box55{
+    width: 70px;
+    height: 70px;
+    
+}
+.box55:hover{
+    background-color:  rgb(82, 80, 80);
+}
+.box66{
+    width: 70px;
+    height: 70px;
+    
+}
+.box66:hover{
+    background-color:  rgb(82, 80, 80);
+}
+.box77{
+    width: 70px;
+    height: 70px;
+    
+}
+.box77:hover{
+    background-color:  rgb(82, 80, 80);
+}
+.box88{
+    width: 70px;
+    height: 70px;
+    
+}
+.box88:hover{
+    background-color:  rgb(82, 80, 80);
+}
+.box99{
+    width: 70px;
+    height: 70px;
+   
+}
+.box99:hover{
+    background-color:  rgb(82, 80, 80);
+}
+.box20{
+    width: 60px;
+    height: 70px;
+    
+   
+}
+.box20:hover{
+    background-color:  rgb(82, 80, 80);
+}
+.fa-solid{
+    font-size: 24px;
+    color: white;
+    position: relative;
+    left: 30px;
+    top: 30px;
+}
+.fa-regular{
+    font-size: 24px;
+    color: white;
+    position: relative;
+    left: 30px;
+    top: 30px;
+
+}
+.fa-light{
+    font-size: 24px;
+    color: white;
+    position: relative;
+    left: 30px;
+    top: 30px;
+
+}
+h3{
+    font-size: 20px;
+    color: white;
+    position: relative;
+    left: 82px;
+    top: 5px;
+}
+.innerbox1{
+    width: 40px;
+    height: 40px;
+    background-color: blueviolet;
+    position: relative;
+    left: 30px;
+    top: 10px;
+}
+.innerbox2{
+    width: 40px;
+    height: 40px;
+    background-color: blueviolet;
+    position: relative;
+    left: 18px;
+    top: 10px;
+}
+h4{
+    color: white;
+    font-size: 20px;
+    position: relative;
+    left: 5px;
+    top: 10px;
+}
+h2{
+    font-size: 20px;
+    color: white;
+    position: relative;
+    left: 60px;
+    top: -10px;
+}

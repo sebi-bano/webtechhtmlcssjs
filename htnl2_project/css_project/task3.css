@@ -1,0 +1,84 @@
+.box1{
+    height: 200px;
+    width: 410px;
+    background-color: hsl(321, 79%, 46%);
+    border-radius: 0px 0px 200px 200px;
+    position: relative;
+    left: 500px;
+    top: 350px;
+
+}
+
+.fruit {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 460px;
+    bottom: -10px;
+    z-index: -50;
+    mix-blend-mode:normal;
+    
+}
+.apple {
+    width: 180px;
+    height: 180px;
+   
+    position: relative;
+    left: 420px;
+    bottom: 80px;
+    z-index: -30;
+    mix-blend-mode:multiply;
+}
+
+.banana {
+    width: 180px;
+    height: 180px;
+    
+    position: relative;
+    left: 370px;
+    bottom: -10px;
+    z-index: -30;
+    mix-blend-mode: multiply;
+}
+.orange{
+    width: 180px;
+    height: 180px;
+   
+    position: relative;
+    left: 50px;
+    bottom: -11px;
+    z-index: -30;
+    mix-blend-mode:normal;
+
+
+}
+.mango{
+    width: 210px;
+    height: 210px;
+    
+    position: relative;
+    left: -290px;
+    top: -60px;
+    z-index: -50;
+    mix-blend-mode:multiply;
+
+}
+.straw{
+    width: 150px;
+    height: 150px;
+    
+    position: relative;
+    left: -200px;
+    bottom: 90px;
+    z-index: -30;
+    mix-blend-mode:darken;
+
+}
+
+
+
+
+  
+    
+    
+  

@@ -1,0 +1,113 @@
+.main{
+    height: 690px;
+    width: 790px;
+    background-color: #f2bcc4;
+    position: relative;
+    left: 430px;
+    top: 10px;
+}
+.face{
+    height: 440px;
+    width: 440px;
+    background-color: hsl(327, 92%, 69%);
+    border-radius: 50%;
+    position: relative;
+    left: 180px;
+    top: 130px;
+    z-index: 80;
+    border: 5px solid rgb(249, 35, 185);
+    
+}
+.leye{
+    height: 50px;
+    width: 50px;
+    background-color: #eae3e3;
+    border-radius: 50%;
+    position: relative;
+    left: 100px;
+    top: 200px;
+}
+.reye{
+    height: 50px;
+    width: 50px;
+    background-color:#eae3e3;
+    border-radius: 50%;
+    position: relative;
+    left: 288px;
+    top:155px;
+
+}
+.mouth{
+    height: 150px;
+    width: 200px;
+    background-color:rgb(245, 141, 204);
+    border-radius: 50%;
+    position: relative;
+    left: 115px;
+    top: 140px;
+
+}
+.sleye{
+    height: 10px;
+    width: 10px;
+    background-color:black;
+    border-radius: 50%;
+    position: relative;
+    left:20px;
+    top: 20px;
+}
+.sreye{
+    height: 10px;
+    width: 10px;
+    background-color:black;
+    border-radius: 50%;
+    position: relative;
+    left: 20px;
+    top:20px;
+}
+.lnose{
+    height: 32px;
+    width: 32px;
+    background-color:#f30568;
+    border-radius: 50%;
+    position: relative;
+    left: 55px;
+    top:40px;
+
+}
+.rnose{
+    height: 32px;
+    width: 32px;
+    background-color:#f30568;
+    border-radius: 50%;
+    position: relative;
+    left: 115px;
+    top:11px;
+
+}
+.ear{
+    height: 100px;
+    width: 100px;
+    border: 5px solid rgb(249, 35, 185);
+    position: relative;
+    left: 210px;
+    top: -305px;
+    background-color:rgb(245, 141, 204) ;
+    border-radius: 15px;
+    
+   
+}
+.rear{
+    height: 100px;
+    width: 100px;
+    border: 5px solid rgb(249, 35, 185) ;
+    position: relative;
+    left: 480px;
+    top: -420px;
+    background-color: rgb(245, 141, 204);
+    border-radius: 15px;
+
+}
+    
+
+    

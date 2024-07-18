@@ -1,0 +1,15 @@
+#main{
+    color: #4b0dae;
+    text-align: center;
+    background-color: aqua;
+}
+.good{
+    color: chocolate;
+    background-color: darkmagenta;
+}
+*{
+    background-color: deeppink;
+}
+h2,div{
+    color: rgb(43, 0, 255);
+}

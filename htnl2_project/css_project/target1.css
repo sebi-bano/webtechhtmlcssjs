@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+body{
+    background-image: url("../image/abstract-polka-dot-background-with-small-dots-free-vector.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow-y: auto;
+
+}
+section{
+    width: 950px;
+    height: 200px;
+    position: relative;
+    left: 220px;
+    top: 220px;
+    display:flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    background-color: rgb(244, 234, 220);
+    
+
+}
+.box1{
+    width: 200px;
+    height: 200px;
+    font-size: 50px;
+
+}
+.box2{
+    width: 200px;
+    height: 200px;
+    font-size: 50px;
+    
+}
+.box3{
+    width: 200px;
+    height: 200px;
+    font-size: 50px;
+    
+}
+.box4{
+    width: 200px;
+    height: 200px;
+    font-size: 50px;
+    
+}
+.box5{
+    width: 200px;
+    height: 200px;
+    font-size: 50px;
+  
+    
+}
+.fa-solid{
+    position: relative;
+    left: 60px;
+    top: 50px;
+    font-size: 70px;
+}
+.fa-brands {
+    position: relative;
+    left: 60px;
+    top: 48px;
+    font-size: 70px;
+
+}
+h3{
+    font-size: 30px;
+    position: relative;
+    left: 50px;
+    top: 60px;
+}

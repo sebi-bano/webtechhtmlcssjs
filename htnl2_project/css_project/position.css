@@ -1,0 +1,15 @@
+section{
+    height: 200px;
+    width: 200px;
+    border: 10px solid red;
+    position: relative;
+    left: 500px;
+    top: 200px;
+    
+}
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    
+}

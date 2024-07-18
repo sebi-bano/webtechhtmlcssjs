@@ -1,0 +1,59 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.main{
+    width: 700px;
+    height:400px;
+    margin: 100px auto;
+    background: #9B59B6;
+}
+.main1{
+    width: 700px;
+    height: 150px;
+    position: relative;
+    left: 0px;
+    top: 270px;
+    background: #49627C;
+}  
+.ball{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: relative;
+    left: 598px;
+    top: 5px;
+    background-color: white;
+    animation-name: ball;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    transition-timing-function: ease-out;
+}
+@keyframes ball{
+    0%{
+        transform: translatex(0px);
+    }
+    36.16%{
+        transform: translate(-700px, 195px);
+        transition: all 2s 0s ease-in;
+        box-shadow: -5px -5px 5px #ffffff;
+
+    }
+     /* 32.32%{
+        transform: translate(-150px,50px);
+        transition: all 2s 0s ease-in;
+        box-shadow: 5px -5px 5px white;
+    }
+    48.48%{
+        transform: translate(-300px,195px);
+        transition: all 2s 0s ease-in;
+        box-shadow: -5px -5px 5px white;
+    } 
+    100%{
+        transform: translate(-500px,100px);
+       
+    }    
+     */
+
+}
