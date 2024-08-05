@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section{
+            height: 100vh;
+            width: 100%;
+            border: 1px solid;
+            background-color: rgb(240, 104, 186);
+            display: flex;
+            flex-wrap: wrap;
+            overflow-y: auto;
+           
+            justify-content: space-evenly;
+            box-sizing: border-box;
+
+
+        }
+        .card{
+            height: 300px;
+            width: 300px;
+            border: 1px solid;
+            margin-bottom: 20px;
+            background-color: rgb(175, 175, 232);
+            display: flex;
+            
+            justify-content: center;
+        }
+        section::-webkit-scrollbar{
+            display: none;
+        }
+        .Userimage{
+            height: 100px;
+            width: 100px;
+        }
+
+        .card,h1,p{
+            text-align: center;
+        }
+    </style>
+
+</head>
+<body>
+    <section></section>
+
+    <script src="./fetchapi.js"></script>
+    
+</body>
+</html>

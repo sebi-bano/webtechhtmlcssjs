@@ -1,0 +1,75 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+.main{
+    height: 450px;
+    width: 300px;
+    border: 2px solid rgb(111, 146, 159);
+    margin: 100px auto;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(85, 118, 130);
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 2px 2px 2px 2px rgb(118, 145, 155);
+    
+    
+
+
+    
+}
+.display{
+    height: 55px;
+    width: 270px;
+    background-color: rgb(205, 198, 198);
+    box-shadow: inset 5px 5px 10px rgb(94, 92, 92);
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: right;
+    font-size: 45px;
+}
+
+.main2{
+    height: 315px;
+    width: 255px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+button{
+    height: 55px;
+    width: 55px;
+    border: 0px;
+    box-shadow: 2px 2px 4px rgb(225, 217, 217);
+    border-radius: 10px 10px 10px 10px;
+    font-size: 30px;
+   
+    
+    
+
+}
+button:hover{
+    background-color: rgb(215, 215, 208);
+}
+.spp{
+    background-color: rgb(250, 175, 36);
+    box-shadow: 2px 2px 4px rgb(250, 175, 36) ;
+    border: 0px;
+}
+
+.spp:hover{
+    background-color: rgb(193, 131, 15);
+}

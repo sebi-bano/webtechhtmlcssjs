@@ -1,0 +1,12 @@
+let promise=new Promise((resolve,reject)=>{
+
+}
+);
+promise.then((data)=>{
+    console.log(data);
+}).catch((error)=>{
+    console.log(data);
+
+}).finally(()=>{
+    
+})
