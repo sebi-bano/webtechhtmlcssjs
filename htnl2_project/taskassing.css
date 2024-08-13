@@ -1,0 +1,23 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+    
+}
+.display{
+    padding: 10px;
+    font-size: 20px;
+    width: 310px;
+    margin: 300px;
+    background-color: rgb(212, 204, 204);
+}
+.popup{
+    height: 150px;
+    width: 260px;
+    border: 1px solid;
+    position: relative;
+    left: 600px;
+    bottom: 300px; font-size: x-large;
+    background-color: rgb(197, 190, 190);
+}
