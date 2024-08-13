@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            background-color: blueviolet;
+            margin: 50px;;
+            
+           
+           
+        }
+        .center {
+            margin: auto;
+            width: 300px;
+           
+            text-align:center;
+           
+          }
+          
+    </style>
+</head>
+<body >
+    
+   
+    <form class="main" >
+        <table>
+        <fieldset>
+            <legend>STUDENT REGISTRATION FORM</legend>
+    <div>
+        <label for="">FIRST NAME</label>
+        <input type="text" maxlength="30">
+    </div>
+    <div>
+        <label for="">LAST NAME</label>
+        <input type="text" maxlength="30">
+    </div>
+    <div>
+        <label for="">DATE OF BIRTH</label>
+        <input type="date">
+    </div>
+    <div>
+        <label for="">EMAIL ID</label>
+        <input type="email">
+    </div>
+    <div>
+        <label for="">MOBILE NUMBER</label>
+        <input type="number">
+    </div>
+    <div>
+        <label for="">GENDER : </label>
+        <input type="radio" name=" m" id="male">
+        <label for="male">male</label>
+        <input type="radio" name=" m" id="" value="male">
+        <label for="">female</label>
+        
+    </div>
+    <div>
+        <label for="">ADDRESS </label>
+        <textarea name="" id="" cols="20" rows="5"> </textarea>
+    </div>
+    <div>
+        <label for="">CITY </label>
+        <select name="" id="">
+            <option >select city</option>
+            <option value="">delhi</option>
+    
+            <option value="" >luckno</option>
+            <option value="">mumbai</option>
+            <option value="">allahabad</option>
+            <option value="">punjab</option>
+        </select>
+    </div>
+    <div>
+        <label for="">PIN CODE</label>
+        <input type="number" max="6">
+    </div>
+    <div>
+        <label for="">STATE</label>
+        <input type="text" maxlength="30">
+    </div>
+    <div>
+        <label for="">COUNTRY </label>
+        <select name="" id="">
+            <option >select country</option>
+            <option value="">Austria</option>
+    
+            <option value="" >usa</option>
+            <option value="">up</option>
+            <option value="">Afghanistan</option>
+            <option value="">bhutan</option>
+        </select>
+
+        <div>
+            <label for="">HOBBIES </label>
+            
+            <span>
+                <input type="checkbox" name="" id=""value="">
+                 <label for="">Drawing</label>
+            </span>
+            <span>
+                <input type="checkbox" name="" id=""value="webtecnology">
+                 <label for=""> singing</label>
+            </span>
+            <span>
+                <input type="checkbox" name="" id=""value="">
+                 <label for="">Dancing</label>
+            </span>
+            <span>
+                <input type="checkbox" name="" id=""value="">
+                 <label for="">sketching</label>
+            </span>
+            <span>
+                <input type="checkbox"  name="" id=""value="">
+                 <label for="">other</label>
+                 <input type="text">
+            </span>
+            <div>
+                <table>
+                    <thead>
+                        <TR>
+                            <TH><h5>QUALIFICATION </h5></TH>
+                            <TH><H5>S.NO</H5></TH>
+                            <TH><H5>EXAMINATION</H5></TH>
+                            <TH><H5>BOARD</H5></TH>
+                            <TH><H5>PERCENTAGE(%)</H5></TH>
+                            <TH><H5>YEAR OF PASSING</H5></TH>
+                        </TR>
+                        <TR>
+                            <TH><h5> </h5></TH>
+                            <TH><H5>1</H5></TH>
+                            <TH><H5>CLASS X </H5></TH>
+                            <TH><input type="text"></TH>
+                            <TH><input type="text"></TH>
+                            <TH><input type="text"></TH>
+                        </TR>
+                        <TR>
+                            <TH><h5> </h5></TH>
+                            <TH><H5>2</H5></TH>
+                            <TH><H5>CLASS XII </H5></TH>
+                            <TH><input type="text"></TH>
+                            <TH><input type="text"></TH>
+                            <TH><input type="text"></TH>
+                        </TR>
+                        <TR>
+                            <TH><h5> </h5></TH>
+                            <TH><H5>3</H5></TH>
+                            <TH><H5>GRADUATION </H5></TH>
+                            <TH><input type="text"></TH>
+                            <TH><input type="text"></TH>
+                            <TH><input type="text"></TH>
+                        </TR>
+                        <TR>
+                            <TH><h5> </h5></TH>
+                            <TH><H5>4</H5></TH>
+                            <TH><H5>MASTERS </H5></TH>
+                            <TH><input type="text"></TH>
+                            <TH><input type="text"></TH>
+                            <TH><input type="text"></TH>
+                        </TR>
+                
+                        <TR>
+                            <TH>COURSES APPLIED FOR</TH>
+                            <TH></TH>
+                            <TH>BCA<input type="radio"></TH>
+                            <TH>B.COM<input type="radio"></TH>
+                            <TH>B.SC<input type="radio"></TH>
+                            <TH>BA<input type="radio"></TH>
+                    
+                        </TR>
+                    </thead>
+                </table>
+                
+            </div>
+            <div>
+                <label for="">COURSES APPLIED FOR</label>
+                <label for="">BCA</label>
+                <input type="radio" name=" m" id="" value="B">
+                <label for="">B.COM</label>
+                <input type="radio" name=" m" id="" value="B">
+                <label for="">BSC</label>
+                <input type="radio" name=" m" id="" value="B">
+                <label for="">BA</label>
+                <input type="radio" name=" m" id="" value="B">
+                
+            </div>
+            <div class="center">
+                <input type="submit" value="submit">
+                <input type="reset" value="Reset">
+            </div>
+        
+
+        </fieldset>
+    </table>
+</form>
+    </div>
+   
+</body>
+</html>

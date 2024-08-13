@@ -1,0 +1,56 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 600px;
+    height: 600px;
+    border: 2px solid;
+    margin: 0px;
+    padding: 50px;
+}
+.lock1{
+    width: 500px;
+    height: 500px;
+    border: 4px solid;
+    background-color: orange;
+    margin: 0px;
+    padding:110px ;
+
+}
+.lock2{
+    width: 210px;
+    height: 300px;
+    border: 20px solid;
+    border-radius: 50% 50% 10%;
+    position: relative;
+    top: -60px;
+    left: 30px;
+    color: rgb(233, 227, 227);
+}
+.lock3{
+    width: 290px;
+    height: 290px;
+    
+    position: relative;
+    left: -10px;
+    top: -220px;
+    border-radius: 50%;
+    background-image: url("../image/lock_2_-removebg-preview.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow-y: auto;
+    color: gray;
+    animation-name: lock;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes lock{
+    100%{
+        transform:rotate(360deg);
+    }
+}

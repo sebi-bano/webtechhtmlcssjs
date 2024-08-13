@@ -1,0 +1,54 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    
+}
+
+input[type="text"]{
+    width: 600;
+    height: 400;
+}
+a:link{
+    color: chartreuse;
+}
+a:active{
+    color: darkkhaki;
+
+}
+a:visited{
+    color: dodgerblue;
+}
+input:focus{
+    background-color: brown;
+}
+input:hover{
+    font-size: large;
+}
+p:first-child{
+    color: blue;
+}
+p:nth-child(3){
+    color: chocolate;
+}
+p:last-child{
+    color: blueviolet;
+}
+div span:first-of-type{
+    color: fuchsia;
+
+}
+p::first-line{
+    color: red;
+}
+p::before{
+    content:😂;
+}
+p::after{
+    content:;
+}
+p::selection{
+    color: greenyellow;
+}
+ol,li::marker{
+    color: hsl(263, 100%, 50%);
+}

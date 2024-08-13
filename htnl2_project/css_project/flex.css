@@ -1,0 +1,404 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.first{
+    width: 790px;
+    height:850px;
+    background-color: rgb(238, 236, 236);
+    position: relative;
+    left: 400px;
+   
+
+}
+.navi{
+    width: 472px;
+    height: 40px;
+   
+    
+    
+}
+.navletter1{
+    text-align: center;
+    word-spacing: 17px;
+    position: relative;
+    left: 25px;
+    top: 10px;
+
+   
+    
+}
+.navletter2{
+    text-align: center;
+    position: relative;
+    left: 158px;
+    top: 10px;
+
+}
+.divletter{
+    width: 90px;
+    height: 22px;
+    border-radius: 40% 40% 40% 40%;
+    background-color: rgb(234, 226, 226);
+    position: relative;
+    left: 100px;
+    bottom: 38px;
+}
+.type{
+    text-align: center;
+    word-spacing: 2px;
+    position: relative;
+    left:5px;
+    top: 5px;
+
+}
+.type1{
+    width: 43px;
+    height: 20px;
+    
+    position: relative;
+    left: 50px;
+    bottom: 14px;
+}
+.img{
+    width: 440px;
+    height:850px;
+    position: relative;
+    left: 350px;
+    border-radius: 30% 0% ;
+    background-image: url("../image/images\ \(1\).jpeg");
+    background-repeat: no-repeat;
+    background-position:0px 0px;
+    background-size:510px;
+    overflow-y: auto;
+    z-index: 50;
+    
+    
+
+}
+.left{
+    width: 462px;
+    height: 350px;
+    border-radius: 0% 0% 40% 40%;
+    position: relative;
+    left: 0px;
+    bottom: 850px;
+    background-color: rgb(110, 110, 238);
+    align-items: center;
+    justify-content: center;
+}
+
+
+.main{
+    width: 360px;
+    height:150px;
+    border: 1px ;
+    
+    position: relative;
+    left: 180px;
+    bottom: 900px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 50;
+
+    
+}
+.box1{
+    height: 62px;
+    width: 80px;
+    
+    background-color:white;
+   
+}
+.box2{
+    height: 62px;
+    width: 80px;
+   
+    background-color: white;
+}
+.box3{
+    height: 62px;
+    width: 80px;
+    
+    background-color: white;
+}    
+.box4{
+    height: 62px;
+    width: 80px;
+    
+    background-color: white;
+}
+.box5{
+    height: 62px;
+    width: 80px;
+    
+    background-color:white;
+}
+.box6{
+    height: 62px;
+    width: 80px;
+   
+    background-color: white;
+}
+.box7{
+    height: 62px;
+    width: 80px;
+   
+    background-color:white;
+}
+.box8{
+    height: 62px;
+    width: 80px;
+    
+    background-color: white;   
+}
+.box20{
+    width: 630px;
+    height:200px;
+   
+    background-color: rgb(238, 236, 236);
+    position: relative;
+    left: 90px;
+    bottom: 1180px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.box21{
+    height: 160px;
+    width: 200px;
+    
+    
+    background-color: white;
+   
+}
+.box22{
+    height: 160px;
+    width: 200px;
+
+    background-color: white;
+}
+.box23{
+    height: 160px;
+    width: 200px;
+   
+    background-color: white;
+}
+.middle{
+    height: 120px;
+    width: 550px;
+   
+    position: relative;
+    left: 145px;
+    bottom: 860px;
+}
+.inner1{
+    height: 110px;
+    width: 140px;
+    background-color: silver;
+    position: relative;
+    left: 120px;
+    bottom: 860px;
+    z-index: 50;
+}
+.inner2{
+    height: 110px;
+    width: 140px;
+    background-color:  rgb(164, 159, 159);
+    position: relative;
+    left: 550px;
+    bottom: 970px;
+    z-index: 50;
+
+}
+.inner3{
+    height: 110px;
+    width: 140px;
+    background-color: rgb(208, 232, 243);
+    position: relative;
+    left: 330px;
+    bottom: 1080px;
+    z-index: 50;
+}
+.letter1{
+    text-align: center;
+    flex: 50%;
+    position: relative;
+    left:-80px;
+    top: 50px;
+    font-size: 30px;
+    color: aliceblue;
+}
+.letter2{
+    text-align: center;
+   align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    position: relative;
+    left:-80px;
+    top: 60px;
+    font-size: 10px;
+
+
+}
+.inner1box21{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(236, 233, 233);
+    border: 1px solid rgb(213, 207, 207);
+    position: relative;
+    left: 0px;
+    top: 130px;
+}
+.inner2box21{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(236, 233, 233);
+    border: 1px solid rgb(213, 207, 207);
+    position: relative;
+    left: 100px;
+    top: 100px;
+    background-color: rgb(227, 223, 223);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.inner1box22{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(236, 233, 233);
+    border: 1px solid rgb(213, 207, 207);
+    position: relative;
+    left: 0px;
+    top: 130px;
+}
+.inner2box22{
+    width: 100px;
+    height: 30px;
+    border: 1px solid rgb(213, 207, 207);
+    position: relative;
+    left: 100px;
+    top: 100px;
+    background-color: rgb(92, 92, 235);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.inner1box23{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(236, 233, 233);
+    border: 1px solid rgb(213, 207, 207);
+    position: relative;
+    left: 0px;
+    top: 130px;
+}
+.inner2box23{
+    width: 100px;
+    height: 30px;
+    border: 1px solid rgb(213, 207, 207);
+    position: relative;
+    left: 100px;
+    top: 100px;
+    background-color: rgb(227, 223, 223);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.fa-solid{
+    
+    text-align: center;
+    position: relative;
+    left: 30px;
+    top: 15px;
+    font-size: 28px;
+
+}
+.fa-brands{
+    text-align: center;
+    position: relative;
+    left: 30px;
+    top: 15px;
+    font-size: 28px;
+
+}
+h3{
+    font-size: 12px;
+    position: relative;
+    left: 60px;
+    top: 60px;
+    color: white;
+}
+.img1{
+    width: 150px;
+    height: 110px;
+}
+.img2{
+    width: 140px;
+    height: 107px;
+    position: relative;
+    left: 2px;
+    top: 2px;
+}
+.img3{
+    width: 140px;
+    height: 110px;
+    position: relative;
+    left: 2px;
+    top: 2px;
+}
+.more{
+    font-size: 15px;
+    color: black;
+
+}
+.low{
+    font-size: 11px;
+    color: black;
+    position: relative;
+    left: 10px;
+    top: 20px;
+}
+.seek{
+    width: 130px;
+    height: 100px;
+    position: relative;
+    right: 100px;
+    bottom: 90px;
+    background-image: url("../image/seek.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow-y: auto;
+    mix-blend-mode:multiply;
+}
+.amrica{
+    position: relative;
+    left: 30px;
+    top: 90px;
+    font-size: 14px;
+    color: black;
+}
+.amrica1{
+    position: relative;
+    left: 50px;
+    top: 90px;
+    font-size: 14px;
+    color: blue;
+}
+.star1{
+    width: 50px;
+    height: 30px;
+    border: 5px solid;
+    display: flex;
+    
+}

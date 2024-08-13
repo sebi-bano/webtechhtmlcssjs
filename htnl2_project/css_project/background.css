@@ -1,0 +1,20 @@
+section{
+    height: 300px;
+    width: 300px;
+    border: 10px solid;
+    
+    border-radius: 50%;
+   /* background-color: chartreuse;*/
+  /* background: linear-gradient(to right bottom, orange,white,green);*/
+  /*background: repeating-radial-gradient(rgb(21, 21, 20),#d2a8c3,#38c438);*/
+  /*background-color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);*/
+/*background-image: conic-gradient(rgb(181, 51, 127) 90deg,#0093E9 90deg 270deg,#80D0C7 60deg ,orange ,);*/
+background-image: url("../image/download.jpg");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+overflow-y: auto;
+
+} 
+   

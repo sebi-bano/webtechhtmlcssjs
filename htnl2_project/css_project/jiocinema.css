@@ -1,0 +1,189 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: black;
+}
+.navi{
+    width: 1550px;
+    height: 80px;
+    background-color:black;
+    display: flex;
+    justify-content: flex-start;
+    border: 1px solid rgb(154, 144, 144);
+    align-items: flex-start;
+    color: white;
+    position: sticky;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    
+
+}
+ul li{
+    display: flex;
+    margin: 10px;
+    justify-content: space-around;
+
+}
+img{
+    width: 105px;
+    height: 75px;
+    position: relative;
+    left: 15px;
+    top: -10px;
+}
+.same{
+    position: relative;
+    left: 15px;
+    top: 24px;
+}
+.jio{
+    position: relative;
+    left: -8px;
+    top: 15px;
+    font-size: 30px;
+
+}
+.op{
+    height: 15px;
+    width: 15px;
+    position: relative;
+    left: 10px;
+    top: 2px;
+
+}
+.search-box{
+    height: 40px;
+    width: 300px;
+    position: relative;
+    left: 450px;
+    top: 20px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: rgb(47, 46, 46);
+}
+.second-n{
+    width: 1550px;
+    height: 70px;
+    background-color:black;
+    position: sticky;
+
+
+}
+
+
+.png1{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left: 10px;
+    top: 200px;
+}
+.png2{
+    height: 550px;
+    width: 400px;
+    position: relative;
+    left: 10px;
+    top: -30px;
+
+}
+.png3{
+    height: 550px;
+    width: 700px;
+    position: relative;
+    left: 450px;
+    top: -30px;
+
+}
+.png4{
+    height: 550px;
+    width: 200px;
+    position: relative;
+    left: 450px;
+    top: -00px;
+
+
+}
+.nav-options{
+    background-color: black;
+}
+
+
+.nav-options .options {
+    display: flex;
+}
+
+.nav-options .options p {
+    color: white;
+    padding: 11px;
+}
+.nav-options .options p:hover{
+    border: 1px solid;
+    color: white;
+}
+.scroll{
+    display: flex;
+    overflow-x: scroll;
+}
+.scroll::-webkit-scrollbar{
+    display: none;
+}
+.scroll img{
+    flex-wrap: wrap;
+    padding: 20px;
+    position: relative;
+    width: 500px;  
+    height:450px;
+    margin-left: -30px;
+    border-radius: 20px 20px 20px 20px;
+}
+.box1{
+    border-radius: 10px;
+}
+.color{
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+.scroll1{
+    display: flex;
+    overflow-x: scroll;
+}
+.scroll1::-webkit-scrollbar{
+    display: none;
+}
+.scroll1 img{
+    flex-wrap: wrap;
+    padding: 20px;
+    position: relative;
+    width: 500px;  
+    height:450px;
+    margin-left: -30px;
+    border-radius: 20px 20px 20px 20px;
+}
+.box11{
+    border-radius: 10px;
+}
+.user{
+    height: 67px;
+    width: 75px;
+    
+    border-radius: 50%;
+    position: relative;
+    top: -30px;
+    left: 790px;
+    background: url(../image/user123.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: auto;
+
+}
+
+  
+  

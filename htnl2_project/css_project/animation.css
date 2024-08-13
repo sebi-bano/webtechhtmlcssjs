@@ -1,0 +1,47 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.main{
+    height: 500px;
+    width: 500px;
+    margin: 0%;
+    padding: 100px;
+    
+}
+.main1{
+    height: 400px;
+    width: 900px;
+    border: 3px solid;
+    background-color: aqua;
+    
+
+}
+i{
+    font-size: 50px;
+    color: blue;
+    animation-name: car;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes car{
+    0%{
+        transform: translateX(0px);
+    }
+    25%{
+        transform: translateX(900px);
+
+    }
+    50%{
+        transform: translate(900px, 450px);
+    }
+    75%{
+        transform: translate(-60px,450px);
+    }
+    100%{
+        transform: translate(-60px,0px);
+    }
+
+}
